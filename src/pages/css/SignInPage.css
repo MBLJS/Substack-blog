@@ -1,0 +1,244 @@
+.SignInPage_top {
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 32px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.SignInPage_top_logoSign {
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.SignInPage_top_logoSign a {
+  text-decoration: none;
+}
+
+.SignInPage_top_logoSign a svg {
+  fill: #ff6719;
+  width: 32px;
+  height: 36px;
+}
+
+.SignInPage_top_logoSign h2 {
+  color: rgb(64, 64, 64);
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: .07px;
+  line-height: 28px;
+  text-decoration: unset;
+  margin: 0;
+}
+
+
+.SignInPage_top_form {
+  max-width: 440px;
+  width: 100%;
+  flex: 1 1 1px;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.SignInPage_top_form form {
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.SignInPage_top_form form input {
+  padding: 16px 12px;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, .13);
+  background: white;
+  color: rgb(64, 64, 64);
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.SignInPage_top_form button {
+  width: 100%;
+  height: 48px;
+  margin-top: 20px;
+  border-radius: 12px;
+  background-color: #ff6719;
+  color: white !important;
+  text-decoration: none;
+  display: inline;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 0;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+.createAcctLink {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  justify-content: center;
+  display: flex;
+  text-decoration: unset;
+}
+
+.createAcctLink_link {
+  letter-spacing: -.15px;
+  color: rgb(64, 64, 64);
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  text-decoration: unset;
+  margin: 0;
+}
+
+.createAcctLink_link a {
+  color: #ff6719;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.SignInPage_bottom {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: unset;
+  padding-top: 20px;
+  padding: 20px;
+
+}
+
+
+
+.SignInPage_bottom_outerdiv {
+  max-width: 600px;
+  background: radial-gradient(56.56% 165.55% at 99.25% 98.68%, rgba(255, 119, 49, .2) 0%, rgba(255, 119, 49, 0) 100%), var(--color-bg-elevated);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, .1), 0px 4px 6px -2px rgba(0, 0, 0, .05);
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, .13);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 20px;
+  display: flex;
+  text-decoration: unset;
+}
+
+.SignInPage_bottom_outerdiv_left {
+  flex: 1 1 1px;
+  padding-bottom: 20px;
+  gap: 8px;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.SignInPage_bottom_outerdiv_leftTxt {
+  gap: 8px;
+  flex-direction: column;
+  display: flex;
+}
+
+.SignInPage_bottom_outerdiv_leftTxt h3 {
+  color: rgb(64, 64, 64);
+  font-family: -apple-system, -system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 800;
+  line-height: 24px;
+  font-size: 20px;
+  letter-spacing: -.45;
+  text-decoration: unset;
+  margin: 0;
+}
+
+.SignInPage_bottom_outerdiv_leftTxt div {
+  letter-spacing: -.15px;
+  color: rgb(64, 64, 64);
+  font-family: -apple-system, -system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  text-decoration: unset;
+  margin: 0;
+}
+
+.SignInPage_bottom_outerdiv_leftTxtscan{
+  gap: 16px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.SignInPage_bottom_outerdiv_leftTxtscanA{
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, .1), 0px 10px 10px -5px rgba(0, 0, 0, .04);
+  background-color: white;
+  width: fit-content;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, .13);
+  display: flex;
+}
+
+.SignInPage_bottom_outerdiv_leftTxtscanB{
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, .1), 0px 4px 6px -2px rgba(0, 0, 0, .05);
+  transition: transform -.5s  cubic-bezier(.16, 1, .3, 1);
+  padding: 8px;
+  display: flex;
+}
+
+.SignInPage_bottom_outerdiv_leftTxtscanB div img{
+  width: 160px;
+  height: 160px;
+}
+
+.SignInPage_bottom_outerdiv_leftApp{
+  gap: 8px;
+  display: flex;
+  text-decoration: underline;
+}
+
+.SignInPage_bottom_outerdiv_leftApp a{
+min-width: 135px;
+width: fit-content;
+background-color: black;
+cursor: pointer;
+overflow-x: hidden;
+border-radius: 6px;
+display: flex;
+text-decoration: unset;
+}
+
+.SignInPage_bottom_outerdiv_leftApp a img{
+  width: 120px;
+}
+
+
+
+.SignInPage_bottom_outerdiv_right{
+  align-items: flex-end;
+  display: flex;
+  text-decoration: unset;
+}
+
+.SignInPage_bottom_outerdiv_right img{
+    max-width: 180px;
+}

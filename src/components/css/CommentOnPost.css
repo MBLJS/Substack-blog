@@ -1,0 +1,402 @@
+.likePostModal_outer_div {
+  overflow-y: auto !important;
+  z-index: 30 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  position: fixed !important;
+}
+
+.likePostModal_outerdiv1 {
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 100% !important;
+  display: flex !important;
+
+}
+
+
+.likePostModal_opacityy {
+  width: 450px;
+  border-radius: 12px;
+  border: #00000021;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, .1), 0px 4px 6px -2px rgba(0, 0, 0, .05);
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  text-decoration: unset;
+}
+
+.likeNubAndClose {
+  border-bottom: 1px solid #00000021;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  text-decoration: unset;
+}
+
+.likeNubAndClose h1 {
+  color: #404040;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: .07px;
+  text-decoration: unset;
+  margin: 0;
+}
+
+
+.likeNubAndClose button {
+  border-radius: 100000000px;
+  width: 40px;
+  height: 40px;
+  color: #808080;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  flex: 0 0 auto;
+  gap: 6px;
+
+  box-sizing: border-box;
+  outline: none;
+  background: transparent;
+  padding: 0;
+  color: unset;
+  appearance: none;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: inherit;
+  transition: var(--animate-hover);
+  margin: 0;
+}
+
+
+.likeNubAndClose button:hover {
+  background-color: #d6d0d0;
+  transition: 0.25s;
+}
+
+.CommentOnPost_outerdiv {
+  flex: 1 1 auto;
+  flex-direction: column-reverse;
+  overflow-y: auto;
+  padding: 16px;
+  gap: 12px;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_innerdiv {
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_innerdiv11 {
+  flex: 1 1 1px;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_personthatpost {
+  position: relative;
+  padding-bottom: 40px;
+  gap: 12px;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_personthatpost::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: calc(40px + 8px);
+  bottom: 8px;
+  left: calc(40px / 2 - 1px);
+  width: 2px;
+  background: #00000021;
+  border-radius: 6px;
+}
+
+.CommentOnPost_personthatpost img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_personthatpost22 {
+  min-width: 0;
+  gap: 16px;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_personthatpost2233 {
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+
+.CommentOnPost_personthatpost2233_name {
+  letter-spacing: -.32px;
+  color: #404040;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-decoration: unset;
+  margin: 0;
+}
+
+.CommentOnPost_personthatpost2233_name11 {
+  min-width: 0;
+  display: flex;
+  text-decoration: unset;
+}
+
+
+.CommentOnPost_personthatpost2233_name11_main {
+  flex: 1 1 1px;
+  gap: 8px;
+  align-items: center;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_personthatpost2233_name11_main .s1 {
+  font-weight: 500;
+  text-decoration: unset;
+  margin: 0;
+  color: unset;
+}
+
+.CommentOnPost_personthatpost2233_name11_main s2 {
+  color: #808080;
+  text-decoration: unset;
+  margin: 0;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -.32px;
+}
+
+.CommentOnPost_personthatpost2233_mainpost {
+  letter-spacing: -.32px;
+  color: #404040;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-decoration: unset;
+  margin: 0;
+}
+
+.CommentOnPost_personthatpost2233_mainpost11 {
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.CommentOnPost_personthatpost2233_mainpost11 .p1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  margin: 0;
+  color: #404040;
+}
+
+.CommentOnPost_personthatpost2233_mainpost11 p2 {
+  margin: 8px 0;
+  margin-bottom: 8px;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  color: #404040;
+}
+
+.CommentOnPost_mypost {
+  gap: 12px;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_mypost img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_mypost11 {
+  cursor: text;
+  font-size: 16px;
+  line-height: 24px;
+  border: 2px solid transparent;
+  min-height: 240px;
+  resize: none;
+  flex-grow: 1;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin-left: calc(-1 * 8px + 2px);
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  padding: 8px;
+  flex: 1 1 1px;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.CommentOnPost_mypost22 {
+  display: flex;
+  flex-flow: column;
+  flex: 1 0 1px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.CommentOnPost_mypost33 {
+  position: relative;
+  flex: 1 0 1px;
+}
+
+.CommentOnPost_mypost33 p{
+
+  margin-top: 0;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  margin: 0;
+  color: #404040;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+
+  /* margin-top: 0;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  margin: 0;
+  color: #404040;
+  border: none;
+  outline: none;
+  width: 95%;
+  height: 200px;
+  padding: 5px; */
+}
+
+.CommentOnPost_mypost33 p [contentEditable]:empty:before {
+  content: attr(data-placeholder);
+  color: #404040;
+  background-color: aqua;
+}
+
+
+/* .CommentOnPost_mypost33 p::before {
+  color: #808080;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+} */
+
+
+.ProseMirror-trailingBreak {
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.rrrppp{
+  gap: 8px;
+  flex-wrap: wrap;
+  display: flex;
+  text-decoration: unset;
+}
+
+.photoAndPost{
+  border-top: 1px solid #00000021;
+  padding: 16px;
+  justify-content: space-between;
+  display: flex;
+  text-decoration: unset;
+  z-index: 1;
+}
+
+
+.photoAndPost .btn1{
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0;
+  color: unset;
+  appearance: none;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 10000px;
+}
+
+.photoAndPost .btn1 input{
+display: none;
+}
+
+.photoAndPost .btn1 svg{
+stroke: #808080;
+}
+
+.photoAndPost .btn1:hover{
+background-color: #eeeeee;
+}
+  
+
+.photoAndPost .btn2{
+  background-color: rgb(255, 103, 25);
+  opacity: .5;
+  color: white;
+  cursor: pointer;
+  border-radius: 10000px;
+  height: 40px;
+  font-size: 14px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-weight: 500;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+}
+
+
+

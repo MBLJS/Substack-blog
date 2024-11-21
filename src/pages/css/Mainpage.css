@@ -1,0 +1,353 @@
+.reader_nav_page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  min-width: 0;
+  min-height: 0;
+}
+
+.reader_nav_page_main {
+  flex: 1 1 1px;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.reader_nav_page_main_divider {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.reader_nav_page_scroll {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 1px;
+  min-width: 0;
+  overflow-anchor: none;
+}
+
+.reader_nav_page_scroll_11 {
+  flex: 1 1 1px;
+  min-width: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.reader_nav_page_scroll_22 {
+  flex: 1 1 1px;
+  justify-content: center;
+  display: flex;
+  display: flex;
+}
+
+.reader_nav_center {
+  padding: 0;
+  gap: 0;
+  display: flex;
+  flex: 1 0 1px;
+  min-width: 0;
+  max-width: 600px;
+}
+
+.reader2_page {
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+  flex: 1 0 1px;
+  min-width: 0;
+}
+
+.reader2_page_body {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 24px;
+  flex: 1 1 auto;
+}
+
+.reader2_page_body_top {
+  position: relative;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  gap: 6px;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.reader2_page_body_top11 {
+  display: flex;
+  text-decoration: unset;
+  position: relative;
+}
+
+.reader2_page_body_topBtnOuterDiv {
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  text-decoration: unset;
+  overflow-x: auto;
+  min-width: 0;
+  width: 0;
+  flex: 1 1 1px;
+  gap: 8px;
+}
+
+.reader2_page_body_topBtns {
+  gap: 8px;
+  display: flex;
+  text-decoration: unset;
+  padding-top: 80px;
+}
+
+.reader2_page_body_topBtns button:nth-last-of-type(2) {
+  background-color: #404040;
+  color: white;
+  border: 0;
+  outline: 0;
+  appearance: none;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  margin: 0;
+  height: 36px;
+  padding: 0 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -.15px;
+  border-radius: 99px;
+  text-transform: capitalize;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.reader2_page_body_topBtns button:nth-last-of-type(1) {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  margin: 0;
+  height: 36px;
+  padding: 0 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -.15px;
+  color: #808080;
+  border-radius: 99px;
+  text-transform: capitalize;
+  font-family: inherit;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  appearance: none;
+}
+
+.reader_content {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  width: 100%;
+}
+
+.reader_content a {
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px !important;
+  transition: 0.25s;
+}
+
+.reader2_post_head {
+  position: relative;
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: .3px;
+  color: #808080;
+  border-top: 1px solid #c4c4c4;
+}
+
+.reader2_post_head_img {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: inset 0 0 0 0.1px white;
+  position: relative;
+  display: flex;
+  text-decoration: unset;
+}
+
+.reader2_post_head_img img {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  border-radius: 6px;
+}
+
+.pub_name {
+  display: inline;
+  flex: 1 1 1px;
+  min-width: 0;
+  width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pub_name a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: .3px;
+}
+
+
+.reader2_date {
+  display: flex;
+  text-decoration: unset;
+  gap: 0.75rem !important;
+  align-items: center !important;
+}
+
+.inbox_item_timestamp {
+  opacity: 1;
+  font-weight: 500;
+}
+
+.inbox_item_actions_menu {
+  opacity: 0;
+  top: 1px;
+  margin-top: 5px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, .13);
+  background: white;
+  z-index: 2;
+  gap: 4px;
+  padding: 4px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.inbox-item-action-button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.reader2_post_body {
+  display: grid;
+  grid: auto/1fr auto;
+  gap: 24px;
+  align-items: start;
+}
+
+.reader2_post_body_header {
+  min-width: 0;
+  gap: 15px;
+  flex-direction: column;
+  display: flex;
+  text-decoration: unset;
+}
+
+.reader2-clamp-lines {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -.3;
+  color: #404040;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.reader2-3-lines {
+  color: #808080;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -.15;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.reader2-item-meta {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 16px;
+  letter-spacing: .3px;
+  color: #808080;
+  display: inline;
+}
+
+.meta-bullet {
+  margin: 0 6px;
+}
+
+.reader2-post-picture-container {
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.reader2-post-picture-container img {
+  display: flex;
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+
+}
+
+.reader_content a:hover {
+  background-color: #f8efef;
+}
+
+
+.reader_content a:hover .inbox_item_actions_menu {
+  opacity: 1;
+  top: 0;
+  /* Adjust the position as needed */
+
+}
+
+
+.reader2-clickable svg:active{
+  border-radius: 1000px;
+fill: #ff6719;
+stroke: #ff6719;
+}
