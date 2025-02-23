@@ -46,7 +46,7 @@ function SingleUserPost() {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5500/api/v3/post/${_id}`)
+    fetch(`https://server-ctav.onrender.com/api/v3/post/${_id}`)
       .then((resp) => resp.json())
       .then((data) => {
         setPost(data);

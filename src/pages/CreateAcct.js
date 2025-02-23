@@ -35,12 +35,12 @@ function CreateAcct() {
         img: profPicUrl,
       };
 
-      const response = await fetch("http://localhost:5500/api/v1/createAcct", {
+      const response = await fetch("https://server-ctav.onrender.com/api/v1/createAcct", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(userData), // Send the user data as JSON
+        body: JSON.stringify(userData),
       });
 
       if (response.ok) {
