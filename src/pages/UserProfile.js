@@ -13,7 +13,7 @@ function UserProfile() {
 
 
   useEffect(() => {
-    fetch(`https://server-ctav.onrender.com/api/v3/posts?user_id=${userDataForProfile._id}`)
+    fetch(`https://mysubstack-server.onrender.com/api/v3/posts?user_id=${userDataForProfile._id}`)
       .then((resp) => resp.json())
       .then((data) => {
         setPosts(data);

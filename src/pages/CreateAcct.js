@@ -35,7 +35,7 @@ function CreateAcct() {
         img: profPicUrl,
       };
 
-      const response = await fetch("https://server-ctav.onrender.com/api/v1/createAcct", {
+      const response = await fetch("https://mysubstack-server.onrender.com/api/v1/createAcct", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

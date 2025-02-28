@@ -96,7 +96,7 @@ function PostComments() {
     };
 
     // Add comment text
-    fetch(`http://localhost:5500/api/v4/${_id}/comment`, {
+    fetch(`https://mysubstack-server.onrender.com//api/v4/${_id}/comment`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(comments),

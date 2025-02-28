@@ -16,7 +16,7 @@ function SignInPage() {
   const [userData, setUserData] = useState(null); 
   const navigate = useNavigate(); 
 
-  const LoginURL = "https://server-ctav.onrender.com/api/v1/login";
+  const LoginURL = "https://mysubstack-server.onrender.com/api/v1/login";
 
   const handleSubmitUser = async (e) => {
     e.preventDefault();
