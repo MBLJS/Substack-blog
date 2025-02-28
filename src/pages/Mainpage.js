@@ -18,7 +18,7 @@ function Mainpage() {
 
 
   useEffect(() => {
-    fetch("https://mysubstack-server.onrender.com//api/v3/posts")
+    fetch("https://mysubstack-server.onrender.com/api/v3/posts")
       .then((resp) => resp.json())
       .then((data) => {
         setPosts(data);

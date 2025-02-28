@@ -46,7 +46,7 @@ function SingleUserPost() {
   };
 
   useEffect(() => {
-    fetch(`https://mysubstack-server.onrender.com//api/v3/post/${_id}`)
+    fetch(`https://mysubstack-server.onrender.com/api/v3/post/${_id}`)
       .then((resp) => resp.json())
       .then((data) => {
         setPost(data);
